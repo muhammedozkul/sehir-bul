@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şehir Bul</title>
+  </head>
+  <body>
+    <main class="oyun">
+      <header class="ust">
+        <h1>Şehir Bul</h1>
+        <div class="durum">
+          <span class="skor">Bulunan: <strong id="skor">0</strong></span>
+          <span class="haklar" id="haklar" aria-label="Kalan hak"></span>
+        </div>
+      </header>
+
+      <p class="hedef" id="hedef" aria-live="polite"></p>
+
+      <svg id="harita" class="harita" role="img" aria-label="Türkiye il haritası"></svg>
+
+      <div class="son" id="son" hidden>
+        <p id="son-mesaj"></p>
+        <button id="tekrar" type="button">Tekrar oyna</button>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
