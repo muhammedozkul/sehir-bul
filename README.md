@@ -7,6 +7,8 @@ The correct province turns green, a wrong one turns red; you have 5 lives in tot
 
 **🎮 Play: https://muhammedozkul.github.io/sehir-bul/**
 
+<p align="center"><img src="media/demo.gif" alt="Finding provinces on the map of Turkey" width="720"></p>
+
 ## Running it on your computer
 
 ```sh
